@@ -71,10 +71,12 @@ a:hover{
 h2 {
 	font-weight: 800;
 	font-size: 48px;
-	line-height: 60px; 
+	line-height: 60px;
 	color: #000000;
 	display: flex;
 	flex-direction: column;
+	width: 80%;
+	margin: auto 0 0 auto;
 }
 
 p {
@@ -92,7 +94,14 @@ p {
 	padding: 12px 30px;
 	background: #FFCCB7;
 	border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  
+  transition: 0.3s;
 }
+.btn_style:hover {
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), #FFCCB7;
+}
+
 .section-padding {
 	padding: 90px 0;
   margin: 45px 0;
@@ -131,7 +140,7 @@ p {
 	color: #000000;
 	margin-top: 2px;
 }
-.item_pic img {
+.item_pic > img {
 	width: 100%;
 }
 
@@ -147,8 +156,8 @@ p {
 	position: absolute;
 	background: url('../images/backdor_bg.svg') no-repeat scroll center center / cover;
 	width: 100%;
-  height: 400px; 
-	top: 226px;
+	height: 571px;
+	top: 82px;
 	z-index: -1;
 }
 
@@ -169,7 +178,7 @@ p {
 .backdrop_shape img {
 	position: absolute;
 	bottom: -251px;
-	right: -111px;
+	right: -135px;
 	width: 760px;
 	z-index: -1;
 }
@@ -205,7 +214,10 @@ p {
 	line-height: 60px;
 	color: #027B8D;
 } 
-
+.item_content_right h2 {
+	margin: 0;
+	width: 95%;
+}
 
 
 /* Safe area css  */
@@ -227,7 +239,9 @@ p {
    background: #434141;
    color: #fff;
 }
-
+.item_content.safe_content h2 {
+	width: 73%;
+}
 
 /* elements area css  */
 
@@ -241,15 +255,14 @@ p {
   color: #fff;
 }
 
-.category_img {
+.elements_images {
 	position: absolute;
-	top: 0;
-	right: 0; 
+	top: 17px;
 }
 
-.item_pic.category_img > img {
+.elements_images > img {
 	width: 303px;
-	height: 461px;
+	height: 381px;
 }
 
 .cate_birt_img {
@@ -257,21 +270,28 @@ p {
 	bottom: -198px;
 	left: -219px;
 }
-
-.cate_birt_img img {
-	width: 480px; 
+.first_item_shape{
+  display: none;
 }
-
+.cate_birt_img img {
+	width: 381px;
+}
 .elements_shape img {
 	position: absolute;
-	bottom: -100px;
+	bottom: -111px;
 	left: 0;
 	right: 0;
 	margin: auto;
 	width: 542px;
 	z-index: 9;
 }
-
+.elements_content h2 {
+	margin: 0;
+	width: 100%;
+}
+.elements_content p {
+	width: 87%;
+}
 
 /* colla area css  */
 
@@ -283,7 +303,7 @@ p {
 
 .colla_bg {
 	background: url('../images/colla/colla_bg.svg') no-repeat scroll top center / cover;
-	height: 475px;
+	height: 500px;
 	width: 100%;
 	top: -1%;
 	left: 0;
@@ -300,20 +320,50 @@ p {
 }
 
 .colla_sun > img {
-  width: 100%;
+	width: 100%;
+	height: 423px;
 }
 
 .colla_sun_shape {
 	position: absolute;
-	top: -86px;
-	right: -78px;
+	top: -131px;
+	right: -108px;
 }
 
 .colla_sun_shape img {
-	width: 170px;
+	width: 224px;
 }
 
 .item_door p,
 .colla_sun p {
 	text-align: left;
+}
+
+.item_pic.item_door {
+	position: absolute;
+	width: 261px;
+	top: 58px;
+}
+
+.colla_btn{
+  background: #E8DA91;
+}
+
+
+/* btn hover css  */
+
+.backdrop_btn:hover{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), #E8DA91;
+}
+
+.lern_more:hover{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), #434141;
+}
+
+.category_btn:hover{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), #EB7E95;
+}
+
+.colla_btn:hover{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), #E8DA91;
 }

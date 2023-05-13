@@ -70,6 +70,9 @@
         top: -7%;
         left: 0; 
     }
+    .elements_images {  
+        right: 0;
+    }
 }
 
 
@@ -84,6 +87,8 @@
     h2 {
         font-size: 36px;
         line-height: 49px;
+        width: 100%;
+        margin: 0;
     }
     p { 
         font-size: 14px;
@@ -103,20 +108,21 @@
         display: none;
     }
     .item_pic.category_img > img {
-        width: 213px;
+        width: 185px;
         height: auto;
         position: relative;
-        z-index: 9; 
+        z-index: 9;
+        top: 170px;
     }
     .elements_content {
         width: 100%;
     }
     .elements_item_pic {
         margin-left: -16px;
-        margin-bottom: 120px;
+        margin-bottom: 209px;
     }
     .elements_shape img {
-        bottom: 41%;
+        bottom: 37%;
         left: 8%;
         right: 0;
         width: 237px;
@@ -125,11 +131,45 @@
         width: 43%;
     }
     .item_pic.item_door {
-        bottom: 303px;
+        top: 22%;
         width: 184px;
     }
     .colla_content {
         width: 100%;
-        margin-top: 150px;
+        margin-top: 160px;
+    }
+    .item_content h2 {
+        margin-top: 24px;
+    }
+    .first_item_shape {
+        display: block;
+        position: absolute;
+        bottom: -51px;
+        left: 19px;
+    }
+    .backdrop_area .item_content_right h2 {
+        margin: 0;
+    }
+    .item_content.safe_content h2 {
+        width: 100%;
+    } 
+    .colla_sun > img {
+        width: 220px;
+        height: auto; 
+    }
+
+    .colla_sun {
+        width: 55%; 
+    }
+    .colla_sun_shape img {
+        width: 185px;
+    }
+    .colla_sun_shape {
+        position: absolute;
+        top: -123px;
+        right: -73px;
+    }
+    .colla_area {
+        margin-bottom: 150px;
     }
 }
