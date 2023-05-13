@@ -1,1 +1,135 @@
-responsive.css
+ 
+@media all and (min-width:1920px){
+    .backdrop_shape img { 
+        bottom: -360px;
+        right: -111px;
+        width: 837px; 
+    }
+} 
+@media all and (max-width:991px){
+    h2 { 
+        font-size: 40px;
+        line-height: 55px; 
+    }
+    .backdrop_shape img { 
+        right: -76px;
+        width: 869px; 
+    }
+    .xoxo { 
+        display: none;
+    }
+    .safe_area .row {
+        flex-direction: column-reverse;
+    }
+    .mobile_none{
+        display: none;
+      }
+      .desktop_none{
+        display: block;
+      }
+      .safe_content {
+        width: 83%;
+        margin: auto 0 auto auto;
+    }
+    .elements_item_pic > img {
+        width: 60% !important;
+    }
+    .cate_birt_img { 
+        z-index: 9;
+    }
+    .elements_item_pic { 
+        margin-left: -38px;
+    }
+    .elements_content {
+        width: 58%;
+    }
+    .elements_shape img { 
+        bottom: 100px;
+        left: 53%;
+        right: 0; 
+        width: 332px; 
+    }
+    .section-padding { 
+        margin: 0;
+    }
+    .colla_sun { 
+        width: 60%;
+    }
+    .item_pic.item_door {
+        position: absolute;
+        bottom: 254px;
+        right: 0;
+        width: 235px;
+    }
+    .colla_content {
+        width: 60%;
+    }
+    .colla_bg {
+        background: url('../images/colla/colla_bg.svg') no-repeat scroll left center / cover;
+        height: 752px; 
+        top: -7%;
+        left: 0; 
+    }
+}
+
+
+
+@media all and (max-width:767px){
+    .banner_area .row {
+        flex-direction: column-reverse;
+    }
+    .item_content {
+        text-align: left;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 49px;
+    }
+    p { 
+        font-size: 14px;
+        line-height: 19px; 
+    }
+    .backdrop_shape img {
+        right: -26px;
+        width: 465px;
+        top: -477px; 
+    }
+    .safe_content {
+        width: 100%;
+        margin: 0;
+        text-align: right;
+    }
+    .cate_birt_img img { 
+        display: none;
+    }
+    .item_pic.category_img > img {
+        width: 213px;
+        height: auto;
+        position: relative;
+        z-index: 9; 
+    }
+    .elements_content {
+        width: 100%;
+    }
+    .elements_item_pic {
+        margin-left: -16px;
+        margin-bottom: 120px;
+    }
+    .elements_shape img {
+        bottom: 41%;
+        left: 8%;
+        right: 0;
+        width: 237px;
+    }
+    .colla_sun {
+        width: 43%;
+    }
+    .item_pic.item_door {
+        bottom: 303px;
+        width: 184px;
+    }
+    .colla_content {
+        width: 100%;
+        margin-top: 150px;
+    }
+}

@@ -27,6 +27,9 @@ table {
    border-collapse: collapse;
    border-spacing: 0;
 }
+html{ 
+  overflow-x: hidden;
+}
 body{
   font-family: 'Manrope', sans-serif;
   background: #FFF2E2;
@@ -94,7 +97,12 @@ p {
 	padding: 90px 0;
   margin: 45px 0;
 }
-
+.mobile_none{
+  display: block;
+}
+.desktop_none{
+  display: none;
+}
 /* Banner Area  */
 
 .banner_area{
@@ -123,26 +131,52 @@ p {
 	color: #000000;
 	margin-top: 2px;
 }
+.item_pic img {
+	width: 100%;
+}
 
 
 /* Backdrop area css  */
 .backdrop_area {
 	width: 100%;
-	position: relative;
-	/* height: 813px; */
+	position: relative; 
+  margin-bottom: 150px;
 }
 
 .bacdrop_bg {
 	position: absolute;
-	background: url('../images/backdrop_bg.svg') no-repeat scroll center center / cover;
+	background: url('../images/backdor_bg.svg') no-repeat scroll center center / cover;
 	width: 100%;
-	height: 640px;
+  height: 400px; 
 	top: 226px;
+	z-index: -1;
+}
+
+.xoxo_shape {
+	width: 205px;
+}
+.xoxo{
+  text-align: end;
+}
+.item_pic.item_next > img{
+  width: 100%;
+}
+.xoxo {
+	text-align: end;
+	margin-top: 22px;
+}
+
+.backdrop_shape img {
+	position: absolute;
+	bottom: -251px;
+	right: -111px;
+	width: 760px;
 	z-index: -1;
 }
 
 .item_pic.item_next {
 	position: relative;
+	z-index: 5;
 }
 
 .item_ball {
@@ -151,8 +185,10 @@ p {
 	left: -66px;
 }
 
-.item_content_right{
-  text-align: left;
+.item_content_right {
+	text-align: left;
+	position: relative;
+	z-index: 2;
 }
 
 .item_pic.item_next p {
@@ -185,4 +221,99 @@ p {
 	top: 0;
 	left: 0;
 	width: 115px;
+}
+
+.lern_more{
+   background: #434141;
+   color: #fff;
+}
+
+
+/* elements area css  */
+
+.elements_area{
+  position: relative;
+	background: url('../images/element/element_bg.svg') no-repeat scroll center center / cover;
+}
+
+.category_btn{
+  background: #EB7E95;
+  color: #fff;
+}
+
+.category_img {
+	position: absolute;
+	top: 0;
+	right: 0; 
+}
+
+.item_pic.category_img > img {
+	width: 303px;
+	height: 461px;
+}
+
+.cate_birt_img {
+	position: absolute;
+	bottom: -198px;
+	left: -219px;
+}
+
+.cate_birt_img img {
+	width: 480px; 
+}
+
+.elements_shape img {
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 542px;
+	z-index: 9;
+}
+
+
+/* colla area css  */
+
+.colla_area{
+  width: 100%;
+  position: relative;
+  margin-top: 200px;
+}
+
+.colla_bg {
+	background: url('../images/colla/colla_bg.svg') no-repeat scroll top center / cover;
+	height: 475px;
+	width: 100%;
+	top: -1%;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.item_door img{
+  width: 100%;
+}
+
+.colla_sun{
+  position: relative;
+}
+
+.colla_sun > img {
+  width: 100%;
+}
+
+.colla_sun_shape {
+	position: absolute;
+	top: -86px;
+	right: -78px;
+}
+
+.colla_sun_shape img {
+	width: 170px;
+}
+
+.item_door p,
+.colla_sun p {
+	text-align: left;
 }
