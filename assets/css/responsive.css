@@ -1,9 +1,15 @@
+
+
  
 @media all and (min-width:1920px){
     .backdrop_shape img { 
         bottom: -360px;
         right: -111px;
         width: 837px; 
+    }
+    .yellow_shape { 
+        bottom: 18%;
+        left: 34%;
     }
 } 
 @media all and (max-width:991px){
@@ -14,12 +20,16 @@
     .backdrop_shape img { 
         right: -76px;
         width: 869px; 
+        bottom: -266px;
     }
     .xoxo { 
         display: none;
     }
     .safe_area .row {
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
     .mobile_none{
         display: none;
@@ -32,7 +42,18 @@
         margin: auto 0 auto auto;
     }
     .elements_item_pic > img {
-        width: 60% !important;
+        width: 57% !important;
+    }
+    .elements_bg { 
+        height: 673px;
+        top: 47px; 
+    }
+    .cate_birt_img img {
+        width: 382px;
+    }
+    .cate_birt_img { 
+        bottom: -93px;
+        left: -169px;
     }
     .cate_birt_img { 
         z-index: 9;
@@ -52,6 +73,10 @@
     .section-padding { 
         margin: 0;
     }
+    .backdrop_area {
+        margin: 0;
+        margin-bottom: 162px;
+    }
     .colla_sun { 
         width: 60%;
     }
@@ -64,14 +89,24 @@
     .colla_content {
         width: 60%;
     }
-    .colla_bg {
-        background: url('../images/colla/colla_bg.svg') no-repeat scroll left center / cover;
-        height: 752px; 
-        top: -7%;
-        left: 0; 
+    .colla_bg { 
+        height: 643px;
+        top: 33px;
+        left: 0;
     }
     .elements_images {  
         right: 0;
+    }
+    .yellow_shape { 
+        bottom: 5%;
+        left: 3%;
+    } 
+    .safe_bg { 
+        height: 588px; 
+    }
+    .safe_shape img { 
+        top: 10px;
+        left: 0; 
     }
 }
 
@@ -79,7 +114,37 @@
 
 @media all and (max-width:767px){
     .banner_area .row {
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .elements_item_pic > img {
+        width: 66% !important;
+    }
+    .elements_images { 
+        top: 7px;
+    }
+    .home_banner { 
+        height: 487px; 
+    }
+    .backdrop_area {
+        margin: 0; 
+    }
+    .bacdrop_bg { 
+        display: none;
+    }
+    .item_content_right a { 
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .yellow_shape { 
+        bottom: 40%;
+        left: 0%;
+    }
+    .white_shape { 
+        top: 5%;
+        left: 4%;
     }
     .item_content {
         text-align: left;
@@ -100,8 +165,8 @@
         top: -477px; 
     }
     .safe_content {
-        width: 100%;
-        margin: 0;
+        width: 84%;
+        margin: auto 0 auto auto;
         text-align: right;
     }
     .cate_birt_img img { 
@@ -119,13 +184,13 @@
     }
     .elements_item_pic {
         margin-left: -16px;
-        margin-bottom: 209px;
+        margin-bottom: 129px;
     }
     .elements_shape img {
-        bottom: 37%;
-        left: 8%;
+        bottom: 43%;
+        left: 12%;
         right: 0;
-        width: 237px;
+        width: 365px;
     }
     .colla_sun {
         width: 43%;
@@ -133,6 +198,9 @@
     .item_pic.item_door {
         top: 22%;
         width: 184px;
+    }
+    .category_btn { 
+        margin-top: 40px;
     }
     .colla_content {
         width: 100%;
@@ -172,4 +240,19 @@
     .colla_area {
         margin-bottom: 150px;
     }
+    .colla_area .colla_content {
+        margin-top: 25px;
+    }
+    .colla_bg { 
+        height: 401px;
+        top: 7%;
+        left: 0;
+    }
+    .colla_area .colla_content {
+        margin-top: 166px;
+    }
+}
+
+@media all and(max-width:375px){
+    
 }
