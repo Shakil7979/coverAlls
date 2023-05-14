@@ -1,7 +1,7 @@
 
 
  
-@media all and (min-width:1920px){
+@media all and (min-width:1440px){
     .backdrop_shape img { 
         bottom: -360px;
         right: -111px;
@@ -11,7 +11,27 @@
         bottom: 18%;
         left: 34%;
     }
-} 
+    .backdrop_shape img { 
+        bottom: -348px;
+        right: -104px;
+        width: 822px; 
+    }
+}  
+@media all and (max-width:1200px){
+    .backdrop_shape img { 
+        bottom: -169px;
+        right: -145px;
+        width: 678px;
+        z-index: -1;
+    }
+    .cate_birt_img img {
+        width: 380px;
+    }
+    .cate_birt_img { 
+        bottom: -169px;
+        left: -194px;
+    }
+}
 @media all and (max-width:991px){
     h2 { 
         font-size: 40px;
@@ -253,6 +273,32 @@
     }
 }
 
-@media all and(max-width:375px){
-    
+ 
+@media all and (max-width:375px){
+    .white_shape img {
+        width: 154px;
+    }
+    .yellow_shape img {
+        width: 97px;
+    } 
+    .yellow_shape {
+        top: 42%;
+    } 
+    .elements_shape img {
+        bottom: 53%;
+        left: 12%; 
+        width: 245px;
+    }
+    .item_pic.item_door { 
+        width: 131px;
+    } 
+    .colla_area .colla_content {
+        margin-top: 107px;
+    } 
+}
+
+@media all and (max-width:368px){
+    .yellow_shape { 
+        top: 37%; 
+    }
 }
