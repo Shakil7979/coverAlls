@@ -30,9 +30,10 @@ table {
 html{ 
   overflow-x: hidden;
 }
-body{
-  font-family: 'Manrope', sans-serif;
-  background: #FFF2E2;
+body {
+	font-family: 'Manrope', sans-serif;
+	background: #FFF2E2;
+	overflow-x: hidden;
 }
 button{
   outline: none !important;
